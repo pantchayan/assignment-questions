@@ -12,7 +12,6 @@
 
 <body>
     <!-- Week 1 -->
-    <!-- Solution 1 -->
     <!-- Header section -->
     <header>
         <!-- Navigation -->
@@ -33,9 +32,8 @@
     </header>
 
     <hr>
-    <!-- Solution 2 -->
     <!-- About Me section -->
-    <section>
+    <section class="about">
         <!-- Profile Image -->
         <div>
             <img src="./assets/image2.jpg" alt="Profile2">
@@ -47,48 +45,47 @@
             <p>Description Area for About me</p>
             <!-- Links to social profiles along with logos -->
             <div>
-                <a href=""><img src="" alt="Logo1"></a>
-                <a href=""><img src="" alt="Logo2"></a>
-                <a href=""><img src="" alt="Logo3"></a>
-                <a href=""><img src="" alt="Logo4"></a>
+                <a href=""><img src="./assets/github logo.png" alt="Logo1"></a>
+                <a href=""><img src="./assets/leet logo.png" alt="Logo2"></a>
+                <a href=""><img src="./assets/linkedIn.png" alt="Logo3"></a>
+                <a href=""><img src="./assets/twitter logo.png" alt="Logo4"></a>
             </div>
         </div>
     </section>
 
     <hr>
-    <!-- Solution 3 -->
     <!-- Projects section -->
-    <section>
+    <section class="projects">
         <div>
-            <h1>My Projects</h1>
+            <h1 class="projects-head">My Projects</h1>
             <p>I mostly work with HTML, CSS, JavaScript</p>
             <div>
-                <div>
-                    <img src="" alt="Project1">
+                <div class="card">
+                    <img src="./assets/calculator png.png" alt="Project1">
                     <h2>Project 1</h2>
                     <p>Project 1 description.</p>
                 </div>
-                <div>
-                    <img src="" alt="Project2">
+                <div class="card">
+                    <img src="./assets/cart png.png" alt="Project2">
                     <h2>Project 2</h2>
                     <p>Project 2 description.</p>
                 </div>
-                <div>
-                    <img src="" alt="Project3">
+                <div class="card">
+                    <img src="./assets/to do list.png" alt="Project3">
                     <h2>Project 3</h2>
                     <p>Project 3 description.</p>
                 </div>
             </div>
         </div>
     </section>
-    
+
     <hr>
 
     <!-- Week 2 -->
     <!-- Get in Touch form section -->
-    <section>
+    <section class="contact-section">
         <h1>Get in Touch</h1>
-        <form>
+        <form id="contact">
             <label>
                 <span>Name</span>
                 <input type="text" name="name" placeholder="Name">
@@ -101,7 +98,7 @@
                 <span>Message</span>
                 <textarea name="message" placeholder="Message"></textarea>
             </label>
-            <input name ="submit" type="submit" value="Send" />
+            <input id="submit_button" name="submit" type="submit" value="Send" />
         </form>
     </section>
 </body>
